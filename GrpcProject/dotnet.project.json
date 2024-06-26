@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "projects": [
+    {
+      "id": "GrpcProject",
+      "name": "GrpcProject",
+      "type": "project",
+      "files": {
+        "include": [
+          "Protos/greet.proto"
+        ]
+      },
+      "dependencies": {
+        "Google.Protobuf": "3.19.1",
+        "Grpc.AspNetCore": "2.36.0",
+        "Grpc.Tools": "2.36.0"
+      }
+    }
+  ]
+}
